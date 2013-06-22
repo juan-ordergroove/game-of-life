@@ -1,6 +1,7 @@
 import Data.Map as Map
 start_board = [((0,0), True), ((0,1), True), ((1,1), True)]
 board = Map.fromList start_board
+board_size = 20
 
 has_life :: Int -> Int -> Int
 has_life x y
